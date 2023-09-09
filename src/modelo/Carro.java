@@ -1,6 +1,6 @@
 package modelo;
 
-public class Carro implements Entidade<Integer> {
+public class Carro implements Entidade <Integer> {
 
     private Integer id;
     private String modelo;
