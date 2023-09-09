@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.List;
 
 public class ClienteJuridico extends Cliente {
@@ -17,7 +19,7 @@ public class ClienteJuridico extends Cliente {
 
     @Override
     public String toString() {
-        return "ClienteJuridico{" +
+        return "model.ClienteJuridico{" +
                 "cnpj='" + cnpj + '\'' +
                 '}';
     }

@@ -1,7 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
+import modelo.Carro;
+import modelo.ClienteFisico;
+import modelo.ClienteJuridico;
+import modelo.Tamanho;
+import servico.CarroServico;
 
-public class Main {
+import java.util.ArrayList;
+
+public class Terminal {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
@@ -10,6 +15,10 @@ public class Main {
 
         System.out.println(joao.toString());
         System.out.println(empresaJoao.toString());
+
+        Carro carro = new Carro(1, "BMW", "Bmw", "azul", " sadasda", Tamanho.MEDIO );
+
+
 
     }
 }

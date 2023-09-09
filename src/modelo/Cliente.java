@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.List;
 
 public abstract class Cliente {
@@ -37,7 +39,7 @@ public abstract class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "model.Cliente{" +
                 "nome='" + nome + '\'' +
                 ", endereco='" + endereco + '\'' +
                 ", carrosAlugados=" + carrosAlugados;
